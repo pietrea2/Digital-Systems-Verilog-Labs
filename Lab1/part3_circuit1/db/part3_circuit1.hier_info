@@ -1,0 +1,8 @@
+|part3_circuit1
+LEDR[0] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst.IN0
+SW[1] => inst1.IN1
+SW[2] => inst1.IN0
+SW[2] => inst3.IN0
+
+
