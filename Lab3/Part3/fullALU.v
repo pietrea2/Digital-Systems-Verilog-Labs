@@ -71,7 +71,7 @@ always @(*)
 		case( pushButtons )
 			0: ALUout = adderOutput;
 			1: ALUout = A + B;
-			2: ALUout = { ~(A ^ B), ~(A & B) };
+			2: ALUout = { ~(A | B), ~(A & B) };
 			3: begin
 					if( A||B )
 						ALUout = 8'b11000000;
