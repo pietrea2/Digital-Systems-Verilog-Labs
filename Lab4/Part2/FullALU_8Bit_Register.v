@@ -16,7 +16,7 @@ module FullALU_8Bit_Register ( SW, KEY, LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5
 	wire [7:0] Output;
 	wire [7:0] Register_Output;
 			
-	ALU ALU0 ( .A(SW[3:0]), .B(Register_Output[3:0]), .cin(SW[8]), .funct(KEY[3:1]), .ALUout(Output[7:0]) );
+	ALU ALU0 ( .A(SW[3:0]), .B(Register_Output[3:0]), .cin(SW[8]), .funct(KEY[3:1]), .ALUout(Output[7:0]), .register(Register_Output[7:0]) );
 	
 	assign LEDR[7:0] = Output[7:0];
 	
@@ -59,12 +59,13 @@ endmodule
 
 
 
-module ALU ( A, B, cin, funct, ALUout );
+module ALU ( A, B, cin, funct, ALUout, register);
 
 	input [3:0] A;
 	input [3:0] B;
 	input cin;
 	input [2:0] funct;
+	input [7:0] register;
 	output reg [7:0] ALUout;
 
 	//have to invert the key inputs
@@ -109,6 +110,7 @@ module ALU ( A, B, cin, funct, ALUout );
 					end
 				5: ALUout = { B, ~A };
 				6: ALUout = { A ^ B, A ~^ B };
+				7: ALUout = register;
 				default: ALUout = 8'b00000000;
 			endcase
 		end
