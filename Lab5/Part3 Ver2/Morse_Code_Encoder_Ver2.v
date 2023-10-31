@@ -34,7 +34,7 @@ module Morse_Code_Encoder_Ver2 (CLOCK_50, SW, KEY, LEDR, HEX0, HEX1, HEX2, HEX3,
 	
 	//New: for keeping the register shifting after button press
 	wire [3:0] button_counter;
-	assign button_counter = 4'bx;
+	assign button_counter = 4'b0;
 	wire button_rshift;
 	
 	wire [3:0] morse_count;
@@ -263,6 +263,12 @@ module ButtonStayPressed(clock, button_press, code_count, counter, keep_shifting
 			counter <= counter - 1;
 		end
 		
+		else if (counter === 4'bx || counter === 4'b0)
+		begin
+			counter <= code_count+2;
+			keep_shifting <= 0;
+		end
+		
 		else if (counter > 4'b0 && counter < code_count+2 && keep_shifting == 1)
 		begin
 			counter <= counter - 1;
@@ -274,11 +280,6 @@ module ButtonStayPressed(clock, button_press, code_count, counter, keep_shifting
 			keep_shifting <= 0;
 		end
 		
-		else if (counter === 4'bx)
-		begin
-			counter <= code_count+2;
-			keep_shifting <= 0;
-		end
 		
 	end
 
