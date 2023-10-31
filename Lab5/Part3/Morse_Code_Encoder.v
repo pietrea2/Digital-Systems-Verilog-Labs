@@ -1,12 +1,18 @@
 `timescale 1ns / 1ns
 
-module Morse_Code_Encoder (CLOCK_50, SW, KEY, LEDR);
+module Morse_Code_Encoder (CLOCK_50, SW, KEY, LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
 
 	input CLOCK_50;
 	input [2:0] SW;
 	input [1:0] KEY;
 	
 	output [1:0] LEDR;
+	output [6:0] HEX0;
+	output [6:0] HEX1;
+	output [6:0] HEX2;
+	output [6:0] HEX3;
+	output [6:0] HEX4;
+	output [6:0] HEX5;
 
 	wire [2:0] code_select;
 	assign code_select = SW[2:0];
@@ -32,6 +38,15 @@ module Morse_Code_Encoder (CLOCK_50, SW, KEY, LEDR);
 	ShiftRegister reg1 ( .code(morse_code), .right_shift(show_code), .clock(CLOCK_50), .reset(asynch_reset), .enable_shift(enable_pulse), .Q(morse_output) );
 	
 	assign LEDR[0] = morse_output;
+	
+	
+	
+	
+	//Additional HEX letter display
+	MorseHEXLetterDecoder HEXdec1 (show_code, code_select, HEX5, HEX4, HEX3, HEX2);
+	assign HEX1[6:0] = 7'b1111111;
+	MorseHEXDecoder HEXdec2 (morse_output, HEX0);
+	
 
 endmodule
 
@@ -170,4 +185,99 @@ module flipFlop ( D, clk, reset_b, enable, Q );
 endmodule 
 
 
+
+
+module MorseHEXDecoder(code, HEXoutput);
+
+	input code;
+	output reg [6:0] HEXoutput;
+	
+	always @ (*)
+	begin
+		case (code)
+			1'b1: HEXoutput = 7'b1000000;
+			1'b0: HEXoutput = 7'b1111111;
+		endcase
+	end
+	
+endmodule
+
+
+
+
+module MorseHEXLetterDecoder(display, morse_code, output1, output2, output3, output4);
+
+	input display;
+	input [2:0] morse_code;
+	output reg [6:0] output1;
+	output reg [6:0] output2;
+	output reg [6:0] output3;
+	output reg [6:0] output4;
+	
+	always @ (*)
+	begin
+		case (display)
+			1'b1: begin
+						case(morse_code[2:0])
+							3'b000: begin					//I
+										output1 = 7'b1111111;  
+										output2 = 7'b1111111;
+										output3 = 7'b1111001;
+										output4 = 7'b1111111;
+									  end
+							3'b001: begin					//J
+										output1 = 7'b1111111;  
+										output2 = 7'b1111111;
+										output3 = 7'b1110000;
+										output4 = 7'b1111111;
+									  end
+							3'b010: begin					//K
+										output1 = 7'b1111111;  
+										output2 = 7'b1111111;
+										output3 = 7'b0000111;
+										output4 = 7'b1111111;
+									  end
+							3'b011: begin					//L
+										output1 = 7'b1111111;  
+										output2 = 7'b1111111;
+										output3 = 7'b1000111;
+										output4 = 7'b1111111;
+									  end
+							3'b100: begin					//M
+										output1 = 7'b1111111;  
+										output2 = 7'b1111111;
+										output3 = 7'b0101011;
+										output4 = 7'b0101011;
+									  end
+							3'b101: begin					//N
+										output1 = 7'b1111111;  
+										output2 = 7'b1111111;
+										output3 = 7'b0101011;
+										output4 = 7'b1111111;
+									  end
+							3'b110: begin					//O
+										output1 = 7'b1111111;  
+										output2 = 7'b1111111;
+										output3 = 7'b0100011;
+										output4 = 7'b1111111;
+									  end
+							3'b111: begin					//P
+										output1 = 7'b1111111;  
+										output2 = 7'b1111111;
+										output3 = 7'b0001100;
+										output4 = 7'b1111111;
+									  end
+						endcase
+					end
+			1'b0: begin
+						output1 = 7'b0100001; //done 
+						output2 = 7'b0100011;
+						output3 = 7'b0101011;
+						output4 = 7'b0000110;
+					end
+		endcase
+	end
+
+
+endmodule
 

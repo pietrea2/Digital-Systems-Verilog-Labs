@@ -1,0 +1,1420 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Title    (Morse_Code_Encoder_1)
+  /Author   (adamp)
+  /Producer (Concept Engineering GmbH)
+  /Creator  (Nlview 6.6.13  2017-09-27 bk=1.3888 VDI=40 GEI=35)
+  /CreationDate (D:20231030202104)
+>>
+endobj
+2 0 obj
+<<
+  /Type     /Catalog
+  /Pages    3 0 R
+  /Outlines 7 0 R
+  /PageMode /UseThumbs
+  /ViewerPreferences << /DisplayDocTitle true >>
+>>
+endobj
+4 0 obj
+<<
+  /Type     /Font
+  /Subtype  /Type1
+  /Name     /F1
+  /BaseFont /Helvetica
+  /Encoding /MacRomanEncoding
+>>
+endobj
+5 0 obj
+<<
+  /ExtGState  6 0 R
+  /Font       << /F1 4 0 R >>
+  /ColorSpace << /PCS [/Pattern /DeviceRGB] >>
+  /Pattern    8 0 R
+  /XObject    9 0 R
+>>
+endobj
+%
+% Nlview page 1
+% (user space scaling 0.5393)
+%
+10 0 obj
+<<
+  /Type      /Page
+  /Parent    3 0 R
+  /Resources 5 0 R
+  /Contents  11 0 R
+  /MediaBox  [0 0 612 792]
+  /Rotate    0
+>>
+endobj
+11 0 obj
+<<
+  /Length 8785
+>>
+stream
+1 0 0 1 0 283.609 cm
+1 0 0 1 28.8 28.8 cm
+0.5393 0 0 -0.5393 0 0 cm
+1 0 0 1 0 -310 cm
+0 0 1028 310 re
+W n
+/GS gs
+1 0 0 1 98 0 cm
+q
+1.000 1.000 1.000 rg
+/GSa0 gs
+-98 0 1028 311 re
+f
+Q
+[] 0 d
+3 w
+0.000 0.000 1.000 RG
+/GSA0 gs
+0 100 m
+-7 107 l
+-21 107 l
+-21 93 l
+-7 93 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 -25 100 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-46.02 -4.308 Td
+(SW[2..0]) Tj
+ET
+Q
+1 w
+0 140 m
+-7 147 l
+-21 147 l
+-21 133 l
+-7 133 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 -25 140 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-61.356 -4.308 Td
+(CLOCK_50) Tj
+ET
+Q
+3 w
+0 290 m
+-7 297 l
+-21 297 l
+-21 283 l
+-7 283 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 -25 290 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-50.7 -4.308 Td
+(KEY[1..0]) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa150 gs
+125 173 60 42 re
+f
+Q
+q
+0.506 0.749 0.373 rg
+/GSa0 gs
+120 168 60 42 re
+f
+Q
+1 w
+0.176 0.176 0.176 RG
+120 168 60 42 re
+S
+3 w
+131 173 m
+131 185 l
+S
+125 179 m
+137 179 l
+S
+1 w
+123 171 16 16 re
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 150 166 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-58.68 2.484 Td
+(MorseCodeMux:mux1) Tj
+ET
+Q
+3 w
+0.024 0.278 0.435 RG
+110 200 m
+120 200 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 118 199 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-48.36 2.07 Td
+(select[2..0]) Tj
+ET
+Q
+190 200 m
+180 200 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 186 199 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(code[12..0]) Tj
+ET
+Q
+130 200 m
+120 200 l
+S
+170 200 m
+180 200 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa150 gs
+125 243 60 42 re
+f
+Q
+q
+0.506 0.749 0.373 rg
+/GSa0 gs
+120 238 60 42 re
+f
+Q
+1 w
+0.176 0.176 0.176 RG
+120 238 60 42 re
+S
+3 w
+131 243 m
+131 255 l
+S
+125 249 m
+137 249 l
+S
+1 w
+123 241 16 16 re
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 150 236 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-46.68 2.484 Td
+(RateDivider:rate1) Tj
+ET
+Q
+0.024 0.278 0.435 RG
+110 270 m
+120 270 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 118 269 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-22.78 2.07 Td
+(clock) Tj
+ET
+Q
+190 270 m
+180 270 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 186 269 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(enable) Tj
+ET
+Q
+130 270 m
+120 270 l
+S
+170 270 m
+180 270 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa150 gs
+385 153 60 122 re
+f
+Q
+q
+0.506 0.749 0.373 rg
+/GSa0 gs
+380 148 60 122 re
+f
+Q
+0.176 0.176 0.176 RG
+380 148 60 122 re
+S
+3 w
+391 153 m
+391 165 l
+S
+385 159 m
+397 159 l
+S
+1 w
+383 151 16 16 re
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 410 146 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-48.018 2.484 Td
+(ShiftRegister:reg1) Tj
+ET
+Q
+0.024 0.278 0.435 RG
+370 180 m
+380 180 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 378 179 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-22.78 2.07 Td
+(clock) Tj
+ET
+Q
+370 220 m
+380 220 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 378 219 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-53.92 2.07 Td
+(enable_shift) Tj
+ET
+Q
+380 240 m
+380 238.343 378.657 237 377 237 c
+375.343 237 374 238.343 374 240 c
+374 241.657 375.343 243 377 243 c
+378.657 243 380 241.657 380 240 c
+S
+370 240 m
+374 240 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 374 239 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-22.23 2.07 Td
+(reset) Tj
+ET
+Q
+380 260 m
+380 258.343 378.657 257 377 257 c
+375.343 257 374 258.343 374 260 c
+374 261.657 375.343 263 377 263 c
+378.657 263 380 261.657 380 260 c
+S
+370 260 m
+374 260 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 374 259 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-43.35 2.07 Td
+(right_shift) Tj
+ET
+Q
+3 w
+370 200 m
+380 200 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 378 199 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-49.48 2.07 Td
+(code[12..0]) Tj
+ET
+Q
+1 w
+450 220 m
+440 220 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 446 219 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(Q) Tj
+ET
+Q
+390 180 m
+380 180 l
+S
+390 220 m
+380 220 l
+S
+390 240 m
+380 240 l
+S
+390 260 m
+380 260 l
+S
+3 w
+390 200 m
+380 200 l
+S
+1 w
+430 220 m
+440 220 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa150 gs
+605 33 60 102 re
+f
+Q
+q
+0.506 0.749 0.373 rg
+/GSa0 gs
+600 28 60 102 re
+f
+Q
+0.176 0.176 0.176 RG
+600 28 60 102 re
+S
+3 w
+611 33 m
+611 45 l
+S
+605 39 m
+617 39 l
+S
+1 w
+603 31 16 16 re
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 630 26 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-94.032 2.484 Td
+(MorseHEXLetterDecoder:HEXdec1) Tj
+ET
+Q
+0.024 0.278 0.435 RG
+600 80 m
+600 78.3431 598.657 77 597 77 c
+595.343 77 594 78.3431 594 80 c
+594 81.6569 595.343 83 597 83 c
+598.657 83 600 81.6569 600 80 c
+S
+590 80 m
+594 80 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 594 79 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-31.12 2.07 Td
+(display) Tj
+ET
+Q
+3 w
+590 100 m
+600 100 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 598 99 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-77.26 2.07 Td
+(morse_code[2..0]) Tj
+ET
+Q
+670 60 m
+660 60 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 666 59 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(output1[6..0]) Tj
+ET
+Q
+670 80 m
+660 80 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 666 79 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(output2[6..0]) Tj
+ET
+Q
+670 100 m
+660 100 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 666 99 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(output3[6..0]) Tj
+ET
+Q
+670 120 m
+660 120 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 666 119 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(output4[6..0]) Tj
+ET
+Q
+1 w
+610 80 m
+600 80 l
+S
+3 w
+610 100 m
+600 100 l
+S
+650 60 m
+660 60 l
+S
+650 80 m
+660 80 l
+S
+650 100 m
+660 100 l
+S
+650 120 m
+660 120 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa150 gs
+605 193 60 42 re
+f
+Q
+q
+0.506 0.749 0.373 rg
+/GSa0 gs
+600 188 60 42 re
+f
+Q
+1 w
+0.176 0.176 0.176 RG
+600 188 60 42 re
+S
+3 w
+611 193 m
+611 205 l
+S
+605 199 m
+617 199 l
+S
+1 w
+603 191 16 16 re
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 630 186 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-78.69 2.484 Td
+(MorseHEXDecoder:HEXdec2) Tj
+ET
+Q
+0.024 0.278 0.435 RG
+590 220 m
+600 220 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 598 219 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-21.68 2.07 Td
+(code) Tj
+ET
+Q
+3 w
+670 220 m
+660 220 l
+S
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 666 219 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(HEXoutput[6..0]) Tj
+ET
+Q
+1 w
+610 220 m
+600 220 l
+S
+3 w
+650 220 m
+660 220 l
+S
+0.000 0.000 1.000 RG
+830 60 m
+830 53 l
+844 53 l
+851 60 l
+844 67 l
+830 67 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 859 60 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(HEX5[6..0]) Tj
+ET
+Q
+830 80 m
+830 73 l
+844 73 l
+851 80 l
+844 87 l
+830 87 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 859 80 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(HEX4[6..0]) Tj
+ET
+Q
+830 100 m
+830 93 l
+844 93 l
+851 100 l
+844 107 l
+830 107 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 859 100 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(HEX3[6..0]) Tj
+ET
+Q
+830 120 m
+830 113 l
+844 113 l
+851 120 l
+844 127 l
+830 127 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 859 120 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(HEX2[6..0]) Tj
+ET
+Q
+830 220 m
+830 213 l
+844 213 l
+851 220 l
+844 227 l
+830 227 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 859 220 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(HEX0[6..0]) Tj
+ET
+Q
+830 240 m
+830 233 l
+844 233 l
+851 240 l
+844 247 l
+830 247 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 859 240 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(LEDR[1..0]) Tj
+ET
+Q
+1 w
+0.176 0.176 0.176 RG
+762 260 m
+778 260 l
+S
+765 263 m
+775 263 l
+S
+768 266 m
+772 266 l
+S
+3 w
+0.000 0.000 1.000 RG
+830 20 m
+830 13 l
+844 13 l
+851 20 l
+844 27 l
+830 27 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 859 20 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(HEX1[6..0]) Tj
+ET
+Q
+q
+0.024 0.278 0.435 rg
+/GSa0 gs
+1 0 0 1 828 18 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-26.016 2.484 Td
+(7'h7f) Tj
+ET
+Q
+0.176 0.176 0.176 RG
+670 220 m
+830 220 l
+S
+2 w
+830 240 m
+775 240 l
+S
+1 w
+0.000 0.000 0.000 RG
+775 240 m
+770 245 l
+S
+0.176 0.176 0.176 RG
+770 245 m
+770 260 l
+S
+0 140 m
+20 140 l
+20 270 l
+110 270 l
+S
+20 140 m
+270 140 l
+270 180 l
+370 180 l
+S
+q
+0.176 0.176 0.176 rg
+/GSa0 gs
+18 138 5 5 re
+f
+Q
+3 w
+0 100 m
+40 100 l
+40 200 l
+110 200 l
+S
+40 100 m
+590 100 l
+S
+q
+0.176 0.176 0.176 rg
+/GSa0 gs
+37 97 7 7 re
+f
+Q
+0 290 m
+290 290 l
+290 120 l
+490 120 l
+490 77 l
+S
+1 w
+490 80 m
+590 80 l
+S
+290 260 m
+370 260 l
+S
+290 240 m
+370 240 l
+S
+3 w
+0.000 0.000 0.000 RG
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+489 75 m
+489 85 l
+500 80 l
+f
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+289 255 m
+289 265 l
+300 260 l
+f
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+289 235 m
+289 245 l
+300 240 l
+f
+Q
+1 w
+0.176 0.176 0.176 RG
+590 220 m
+490 220 l
+490 160 l
+770 160 l
+770 235 l
+S
+0.000 0.000 0.000 RG
+770 235 m
+775 240 l
+S
+2 w
+0.176 0.176 0.176 RG
+775 240 m
+830 240 l
+S
+1 w
+450 220 m
+490 220 l
+S
+q
+0.176 0.176 0.176 rg
+/GSa0 gs
+488 218 5 5 re
+f
+Q
+3 w
+190 200 m
+370 200 l
+S
+1 w
+190 270 m
+270 270 l
+270 220 l
+370 220 l
+S
+3 w
+670 60 m
+830 60 l
+S
+670 80 m
+830 80 l
+S
+670 100 m
+830 100 l
+S
+670 120 m
+830 120 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 296 259 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(1) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 296 239 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(0) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 496 79 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(1) Tj
+ET
+Q
+endstream
+endobj
+3 0 obj
+<<
+  /Type    /Pages
+  /Kids
+  [
+  10 0 R
+  ]
+  /Count   1
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+6 0 obj
+<<
+  /GS << /Type /ExtGState
+         /LC    0
+         /LJ    0
+         /ML    4.0
+         /ca    1.0
+         /CA    1.0
+         /AIS   false
+         /SMask /None
+  >>
+  /GSa0 << /Type /ExtGState /ca 1 >>
+  /GSA0 << /Type /ExtGState /CA 1 >>
+  /GSa150 << /Type /ExtGState /ca 0.411765 >>
+>>
+endobj
+14 0 obj
+<<
+  /Title  (MorseCodeMux:mux1_2 MorseCodeMux:mux1_2)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 119 363 208 397]
+  /Parent 13 0 R
+  /Next   15 0 R
+>>
+endobj
+15 0 obj
+<<
+  /Title  (MorseHEXDecoder:HEXdec2_45 MorseHEXDecoder:HEXdec2_45)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 379 352 478 386]
+  /Parent 13 0 R
+  /Prev   14 0 R
+  /Next   16 0 R
+>>
+endobj
+16 0 obj
+<<
+  /Title  (MorseHEXLetterDecoder:HEXdec1_44 MorseHEXLetterDecoder:HEXdec1_44)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 362 406 472 472]
+  /Parent 13 0 R
+  /Prev   15 0 R
+  /Next   17 0 R
+>>
+endobj
+17 0 obj
+<<
+  /Title  (RateDivider:rate1_3 RateDivider:rate1_3)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 133 325 198 359]
+  /Parent 13 0 R
+  /Prev   16 0 R
+  /Next   18 0 R
+>>
+endobj
+18 0 obj
+<<
+  /Title  (ShiftRegister:reg1_4 ShiftRegister:reg1_4)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 256 331 328 407]
+  /Parent 13 0 R
+  /Prev   17 0 R
+>>
+endobj
+13 0 obj
+<<
+  /Title  (instances)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 12 0 R
+  /First  14 0 R
+  /Last   18 0 R
+  /Count  5
+  /Next   19 0 R
+>>
+endobj
+20 0 obj
+<<
+  /Title  (CLOCK_50492 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 35 399 82 408]
+  /Parent 19 0 R
+>>
+endobj
+19 0 obj
+<<
+  /Title  (ports)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 12 0 R
+  /First  20 0 R
+  /Last   20 0 R
+  /Count  1
+  /Prev   13 0 R
+  /Next   21 0 R
+>>
+endobj
+22 0 obj
+<<
+  /Title  (HEX0[6..0]545 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 527 355 576 366]
+  /Parent 21 0 R
+  /Next   23 0 R
+>>
+endobj
+23 0 obj
+<<
+  /Title  (HEX1[6..0]546 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 514 463 576 476]
+  /Parent 21 0 R
+  /Prev   22 0 R
+  /Next   24 0 R
+>>
+endobj
+24 0 obj
+<<
+  /Title  (HEX2[6..0]547 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 527 409 576 420]
+  /Parent 21 0 R
+  /Prev   23 0 R
+  /Next   25 0 R
+>>
+endobj
+25 0 obj
+<<
+  /Title  (HEX3[6..0]548 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 527 420 576 431]
+  /Parent 21 0 R
+  /Prev   24 0 R
+  /Next   26 0 R
+>>
+endobj
+26 0 obj
+<<
+  /Title  (HEX4[6..0]549 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 527 431 576 441]
+  /Parent 21 0 R
+  /Prev   25 0 R
+  /Next   27 0 R
+>>
+endobj
+27 0 obj
+<<
+  /Title  (HEX5[6..0]550 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 527 441 576 452]
+  /Parent 21 0 R
+  /Prev   26 0 R
+  /Next   28 0 R
+>>
+endobj
+28 0 obj
+<<
+  /Title  (KEY[1..0]543 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 41 317 83 328]
+  /Parent 21 0 R
+  /Prev   27 0 R
+  /Next   29 0 R
+>>
+endobj
+29 0 obj
+<<
+  /Title  (LEDR[1..0]544 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 527 344 576 355]
+  /Parent 21 0 R
+  /Prev   28 0 R
+  /Next   30 0 R
+>>
+endobj
+30 0 obj
+<<
+  /Title  (SW[2..0]542 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 43 420 83 431]
+  /Parent 21 0 R
+  /Prev   29 0 R
+>>
+endobj
+21 0 obj
+<<
+  /Title  (portBuses)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 12 0 R
+  /First  22 0 R
+  /Last   30 0 R
+  /Count  9
+  /Prev   19 0 R
+  /Next   31 0 R
+>>
+endobj
+32 0 obj
+<<
+  /Title  (IN0_610)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 496 339 529 350]
+  /Parent 31 0 R
+  /Next   33 0 R
+>>
+endobj
+33 0 obj
+<<
+  /Title  (OUT0_569)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 81 333 281 405]
+  /Parent 31 0 R
+  /Prev   32 0 R
+  /Next   34 0 R
+>>
+endobj
+34 0 obj
+<<
+  /Title  (Q_40)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 324 350 529 393]
+  /Parent 31 0 R
+  /Prev   33 0 R
+  /Next   35 0 R
+>>
+endobj
+35 0 obj
+<<
+  /Title  (enable_14)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 183 333 281 361]
+  /Parent 31 0 R
+  /Prev   34 0 R
+>>
+endobj
+31 0 obj
+<<
+  /Title  (nets)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 12 0 R
+  /First  32 0 R
+  /Last   35 0 R
+  /Count  4
+  /Prev   21 0 R
+  /Next   36 0 R
+>>
+endobj
+37 0 obj
+<<
+  /Title  (HEXoutput[6..0]_626)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 442 360 529 360]
+  /Parent 36 0 R
+  /Next   38 0 R
+>>
+endobj
+38 0 obj
+<<
+  /Title  (OUT0_618)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 80 370 399 427]
+  /Parent 36 0 R
+  /Prev   37 0 R
+  /Next   39 0 R
+>>
+endobj
+39 0 obj
+<<
+  /Title  (OUT0_619)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 241 339 351 442]
+  /Parent 36 0 R
+  /Prev   38 0 R
+  /Next   40 0 R
+>>
+endobj
+40 0 obj
+<<
+  /Title  (OUT0_619)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 80 321 399 440]
+  /Parent 36 0 R
+  /Prev   39 0 R
+  /Next   41 0 R
+>>
+endobj
+41 0 obj
+<<
+  /Title  (code[12..0]_620)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 184 371 281 371]
+  /Parent 36 0 R
+  /Prev   40 0 R
+  /Next   42 0 R
+>>
+endobj
+42 0 obj
+<<
+  /Title  (output1[6..0]_622)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 442 447 529 447]
+  /Parent 36 0 R
+  /Prev   41 0 R
+  /Next   43 0 R
+>>
+endobj
+43 0 obj
+<<
+  /Title  (output2[6..0]_623)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 442 436 529 436]
+  /Parent 36 0 R
+  /Prev   42 0 R
+  /Next   44 0 R
+>>
+endobj
+44 0 obj
+<<
+  /Title  (output3[6..0]_624)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 442 425 529 425]
+  /Parent 36 0 R
+  /Prev   43 0 R
+  /Next   45 0 R
+>>
+endobj
+45 0 obj
+<<
+  /Title  (output4[6..0]_625)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 442 414 529 414]
+  /Parent 36 0 R
+  /Prev   44 0 R
+>>
+endobj
+36 0 obj
+<<
+  /Title  (netBundles)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 12 0 R
+  /First  37 0 R
+  /Last   45 0 R
+  /Count  9
+  /Prev   31 0 R
+>>
+endobj
+12 0 obj
+<<
+  /Title  (Nlview page 1)
+  /C      [0.4 0.0 0.0]
+  /Dest   [10 0 R /Fit]
+  /Parent 7 0 R
+  /First  13 0 R
+  /Last   36 0 R
+  /Count  5
+>>
+endobj
+8 0 obj
+<<
+>>
+endobj
+9 0 obj
+<<
+>>
+endobj
+7 0 obj
+<<
+  /Type  /Outline
+  /First 12 0 R
+  /Last  12 0 R
+  /Count 1
+>>
+endobj
+xref
+0 46
+0000000000 65535 f 
+0000000009 00000 n 
+0000000223 00000 n 
+0000009688 00000 n 
+0000000373 00000 n 
+0000000500 00000 n 
+0000009791 00000 n 
+0000015778 00000 n 
+0000015736 00000 n 
+0000015757 00000 n 
+0000000708 00000 n 
+0000000849 00000 n 
+0000015578 00000 n 
+0000011061 00000 n 
+0000010103 00000 n 
+0000010276 00000 n 
+0000010480 00000 n 
+0000010696 00000 n 
+0000010886 00000 n 
+0000011353 00000 n 
+0000011221 00000 n 
+0000013022 00000 n 
+0000011526 00000 n 
+0000011680 00000 n 
+0000011851 00000 n 
+0000012022 00000 n 
+0000012193 00000 n 
+0000012364 00000 n 
+0000012535 00000 n 
+0000012702 00000 n 
+0000012873 00000 n 
+0000013796 00000 n 
+0000013199 00000 n 
+0000013340 00000 n 
+0000013498 00000 n 
+0000013653 00000 n 
+0000015417 00000 n 
+0000013968 00000 n 
+0000014121 00000 n 
+0000014279 00000 n 
+0000014438 00000 n 
+0000014596 00000 n 
+0000014762 00000 n 
+0000014930 00000 n 
+0000015098 00000 n 
+0000015266 00000 n 
+trailer
+<<
+  /Size 46
+  /Info 1 0 R
+  /Root 2 0 R
+>>
+startxref
+15860
+%%EOF
