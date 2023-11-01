@@ -23,3 +23,9 @@ Verilog digital circuits/hardware coding lab assignments from 2nd Year of UofT C
 + **Part 1:** Gated D Latch implemented using 7400 series IC chips
 + **Part 2:** ALU with 8-Bit Register (edge-triggered Flip Flop) used to store results 
 + **Part 3:** 8-Bit Rotating Register with Parallel Data Load
+
+
+## [Lab 5: Counters, Clocks, and Rate Dividers](https://github.com/pietrea2/Digital-Systems-Verilog----UofT-2nd-Year/tree/main/Lab5)
++ **Part 1:** 8-Bit Counter built using T-type Flip Flops
++ **Part 2:** HEX counter that displays digits at different speeds using clock rate divider
++ **Part 3:** Morse Code encoder and display module using LUT, shift register, and clock rate divider
