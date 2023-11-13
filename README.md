@@ -29,3 +29,9 @@ Verilog digital circuits/hardware coding lab assignments from 2nd Year of UofT C
 + **Part 1:** 8-Bit Counter built using T-type Flip Flops
 + **Part 2:** HEX counter that displays digits at different speeds using clock rate divider
 + **Part 3:** Morse Code encoder and display module using LUT, shift register, and clock rate divider
+
+
+## [Lab 6: Finite State Machines, Digital Circuit Datapaths and Control Paths](https://github.com/pietrea2/Digital-Systems-Verilog----UofT-2nd-Year/tree/main/Lab6)
++ **Part 1:** 1 and 0 Sequence Detecting FSM
++ **Part 2:** Quadratic Polynomial Computer: full Datapath and Control Path
++ **Part 3:** 4-Bit Restoring Divider Digital Circuit
